@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node / tooling (future-proof if we add scripts)
+node_modules/
+dist/
+build/
+.cache/
+
+# Python (just in case)
+__pycache__/
+*.pyc
+
+# Env & editor
+.env
+.env.*
+.vscode/*
+!.vscode/extensions.json
+
+# n8n exports / temp
+.n8n/
+*.backup.json
